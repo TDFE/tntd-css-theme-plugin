@@ -1,0 +1,23 @@
+{
+  "name": "tntd-css-theme-plugin",
+  "version": "0.0.1-beta.2",
+  "description": "同盾antd3.0动态主题插件",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "utils/",
+    "index.js"
+  ],
+  "keywords": [],
+  "author": "豆豉",
+  "license": "ISC",
+  "peerDependencies": {
+    "@ant-design/colors": "^7.0.0",
+    "postcss": "^8.4.31"
+  },
+  "dependencies": {
+    "tntd-theme-less": "^1.0.0"
+  }
+}
